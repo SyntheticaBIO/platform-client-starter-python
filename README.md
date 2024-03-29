@@ -40,7 +40,7 @@ or just do `pip install poetry`
   >```
   >poetry intsall
   >``` 
- This repo is based on `v0.3.3` of `ryght_platform_sdk`
+ This repo is based on `v0.3.8` of `ryght_platform_sdk`
 
 This should install all the required libraries and dependencies, set the repo for experimenting / testing the 
 `ryght_platform_sdk`
