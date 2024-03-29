@@ -1,0 +1,207 @@
+
+
+# -------------------------------------------------------------------------------------- #
+# -------------> | NEW RUN >> ID: af9be9f9-b016-468d-a9a8-7e2f40e99fb7 | < ------------- #
+# -------------------------------------------------------------------------------------- #
+
+
+
+
+# -------------------------------------------------------------------------------------- #
+# -------------> | NEW RUN >> ID: 11b3d85e-a0ca-4b03-ab59-bc1664378fd4 | < ------------- #
+# -------------------------------------------------------------------------------------- #
+
+
+2024-03-27 16:48:37,052 - ryght.managers.tokens - INFO - Requesting new token
+2024-03-27 16:48:37,053 - ryght.managers.tokens - INFO - Initialing Token Request/ refresh
+2024-03-27 16:48:38,015 - httpx - INFO - HTTP Request: POST https://auth-preview.ryght.ai/auth/realms/ryght-realm/protocol/openid-connect/token "HTTP/1.1 200 OK"
+2024-03-27 16:48:38,015 - ryght.managers.tokens - INFO - Successfully updated the token
+2024-03-27 16:48:38,022 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 16:48:38,022 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 16:48:38,022 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 16:48:40,638 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/v1/document-collections/search "HTTP/1.1 200 "
+2024-03-27 16:48:40,643 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 16:48:40,644 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 16:48:40,644 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 16:48:40,966 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/v1/document-collections/4c1ea76e-2d63-4986-abe2-40c6a58dec3e "HTTP/1.1 403 "
+2024-03-27 16:48:40,967 - ryght.interface.api - ERROR - Got client error: 403, Please check your credential & api endpoint variables
+2024-03-27 16:48:40,967 - ryght.interface.api - ERROR - Exception occurred: Client error '403 ' for url 'https://api-preview.ryght.ai/v1/document-collections/4c1ea76e-2d63-4986-abe2-40c6a58dec3e'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2024-03-27 16:48:41,827 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 16:48:41,827 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 16:48:41,827 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 16:48:42,141 - httpx - INFO - HTTP Request: POST https://api-preview.ryght.ai/v1/document-collections "HTTP/1.1 201 "
+2024-03-27 16:48:42,925 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 16:48:42,925 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 16:48:42,925 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 16:48:43,520 - httpx - INFO - HTTP Request: POST https://api-preview.ryght.ai/document-import/v1/documents/collections/6875acdb-eb4e-443e-8812-5d18563a38e3 "HTTP/1.1 202 "
+2024-03-27 16:48:58,028 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 16:48:58,028 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 16:48:58,029 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 16:48:58,878 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/document-import/v1/documents/status/dc4e3a113c14b14f6e1bd3b9882fbbd2 "HTTP/1.1 200 "
+2024-03-27 16:49:36,197 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 16:49:36,200 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 16:49:36,200 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 16:49:39,598 - httpx - INFO - HTTP Request: POST https://api-preview.ryght.ai/document-import/v1/documents/collections/6875acdb-eb4e-443e-8812-5d18563a38e3/files "HTTP/1.1 202 "
+2024-03-27 16:49:40,714 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 16:49:40,714 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 16:49:40,715 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 16:49:41,000 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/document-import/v1/documents/status/ad2122029c2c7032c9af1eeb421dda46 "HTTP/1.1 200 "
+2024-03-27 16:49:55,124 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 16:49:55,125 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 16:49:55,125 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 16:49:56,021 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/v1/models "HTTP/1.1 200 "
+2024-03-27 16:52:55,464 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 16:52:55,464 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 16:52:55,465 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 16:52:56,347 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/v1/models/84c2ea0d-da42-4dc2-9950-5ae0a4cd57b7 "HTTP/1.1 404 "
+2024-03-27 16:52:56,348 - ryght.interface.api - ERROR - Got client error: 404, Please check your credential & api endpoint variables
+2024-03-27 16:52:56,348 - ryght.interface.api - ERROR - Exception occurred: Client error '404 ' for url 'https://api-preview.ryght.ai/v1/models/84c2ea0d-da42-4dc2-9950-5ae0a4cd57b7'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2024-03-27 16:52:57,104 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 16:52:57,104 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 16:52:57,104 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 16:52:57,507 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/v1/models/operation?operation=EMBEDDING "HTTP/1.1 200 "
+2024-03-27 16:52:57,563 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 16:52:57,564 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 16:52:57,564 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 16:52:57,882 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/v1/models/operation?operation=COMPLETION "HTTP/1.1 200 "
+
+
+# -------------------------------------------------------------------------------------- #
+# -------------> | NEW RUN >> ID: 1d1a681b-6b71-4e4b-b662-ac31f8a23bab | < ------------- #
+# -------------------------------------------------------------------------------------- #
+
+
+2024-03-27 22:40:23,903 - ryght.managers.tokens - INFO - Requesting new token
+2024-03-27 22:40:23,903 - ryght.managers.tokens - INFO - Initialing Token Request/ refresh
+2024-03-27 22:40:24,731 - httpx - INFO - HTTP Request: POST https://auth-preview.ryght.ai/auth/realms/ryght-realm/protocol/openid-connect/token "HTTP/1.1 200 OK"
+2024-03-27 22:40:24,732 - ryght.managers.tokens - INFO - Successfully updated the token
+2024-03-27 22:40:31,491 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:40:31,491 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:40:31,491 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:40:34,139 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/v1/document-collections/search "HTTP/1.1 200 "
+2024-03-27 22:40:34,171 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:40:34,171 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:40:34,171 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:40:34,462 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/v1/document-collections/4c1ea76e-2d63-4986-abe2-40c6a58dec3e "HTTP/1.1 403 "
+2024-03-27 22:40:34,462 - ryght.interface.api - ERROR - Got client error: 403, Please check your credential & api endpoint variables
+2024-03-27 22:40:34,462 - ryght.interface.api - ERROR - Exception occurred: Client error '403 ' for url 'https://api-preview.ryght.ai/v1/document-collections/4c1ea76e-2d63-4986-abe2-40c6a58dec3e'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2024-03-27 22:40:37,222 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:40:37,223 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:40:37,223 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:40:37,501 - httpx - INFO - HTTP Request: POST https://api-preview.ryght.ai/v1/document-collections "HTTP/1.1 201 "
+2024-03-27 22:41:51,953 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:41:51,954 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:41:51,954 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:41:52,952 - httpx - INFO - HTTP Request: POST https://api-preview.ryght.ai/document-import/v1/documents/collections/38c1bd3e-419e-4a40-a433-73dda5ce7b91 "HTTP/1.1 202 "
+2024-03-27 22:41:59,651 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:41:59,652 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:41:59,652 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:42:00,405 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/document-import/v1/documents/status/98b457066ab9bb3e7082d2ad837dd79f "HTTP/1.1 200 "
+2024-03-27 22:42:05,653 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:42:05,654 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:42:05,654 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:42:06,395 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/document-import/v1/documents/status/98b457066ab9bb3e7082d2ad837dd79f "HTTP/1.1 400 "
+2024-03-27 22:42:06,396 - ryght.interface.api - ERROR - Unknown response status code: 400
+2024-03-27 22:43:27,216 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:43:27,216 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:43:27,217 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:43:30,025 - httpx - INFO - HTTP Request: POST https://api-preview.ryght.ai/document-import/v1/documents/collections/38c1bd3e-419e-4a40-a433-73dda5ce7b91/files "HTTP/1.1 202 "
+2024-03-27 22:43:37,584 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:43:37,585 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:43:37,585 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:43:38,340 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/document-import/v1/documents/status/e0b64824e0a97800fe447aac74cce23c "HTTP/1.1 200 "
+2024-03-27 22:43:42,332 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:43:42,332 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:43:42,333 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:43:42,629 - httpx - INFO - HTTP Request: POST https://api-preview.ryght.ai/document-import/v1/documents/collections/38c1bd3e-419e-4a40-a433-73dda5ce7b91 "HTTP/1.1 202 "
+2024-03-27 22:43:43,879 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:43:43,879 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:43:43,879 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:43:44,143 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/document-import/v1/documents/status/e279cacdb06fde5cb3619c87107bbf80 "HTTP/1.1 200 "
+2024-03-27 22:43:47,265 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:43:47,265 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:43:47,265 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:43:47,518 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/document-import/v1/documents/status/e279cacdb06fde5cb3619c87107bbf80 "HTTP/1.1 400 "
+2024-03-27 22:43:47,518 - ryght.interface.api - ERROR - Unknown response status code: 400
+2024-03-27 22:43:52,913 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:43:52,914 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:43:52,914 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:43:53,665 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/document-import/v1/documents/status/e279cacdb06fde5cb3619c87107bbf80 "HTTP/1.1 400 "
+2024-03-27 22:43:53,667 - ryght.interface.api - ERROR - Unknown response status code: 400
+2024-03-27 22:43:57,588 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:43:57,588 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:43:57,588 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:43:57,842 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/document-import/v1/documents/status/e279cacdb06fde5cb3619c87107bbf80 "HTTP/1.1 400 "
+2024-03-27 22:43:57,842 - ryght.interface.api - ERROR - Unknown response status code: 400
+2024-03-27 22:44:00,057 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:44:00,058 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:44:00,058 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:44:00,312 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/document-import/v1/documents/status/e279cacdb06fde5cb3619c87107bbf80 "HTTP/1.1 400 "
+2024-03-27 22:44:00,313 - ryght.interface.api - ERROR - Unknown response status code: 400
+2024-03-27 22:44:01,204 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:44:01,204 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:44:01,204 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:44:01,457 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/document-import/v1/documents/status/e279cacdb06fde5cb3619c87107bbf80 "HTTP/1.1 400 "
+2024-03-27 22:44:01,457 - ryght.interface.api - ERROR - Unknown response status code: 400
+2024-03-27 22:44:02,687 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:44:02,688 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:44:02,688 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:44:02,939 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/document-import/v1/documents/status/e279cacdb06fde5cb3619c87107bbf80 "HTTP/1.1 400 "
+2024-03-27 22:44:02,940 - ryght.interface.api - ERROR - Unknown response status code: 400
+2024-03-27 22:44:03,907 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:44:03,907 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:44:03,908 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:44:04,160 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/document-import/v1/documents/status/e279cacdb06fde5cb3619c87107bbf80 "HTTP/1.1 400 "
+2024-03-27 22:44:04,160 - ryght.interface.api - ERROR - Unknown response status code: 400
+2024-03-27 22:44:04,967 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:44:04,968 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:44:04,968 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:44:05,220 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/document-import/v1/documents/status/e279cacdb06fde5cb3619c87107bbf80 "HTTP/1.1 400 "
+2024-03-27 22:44:05,220 - ryght.interface.api - ERROR - Unknown response status code: 400
+2024-03-27 22:46:50,080 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:46:50,081 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:46:50,081 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:46:50,846 - httpx - INFO - HTTP Request: POST https://api-preview.ryght.ai/v1/document-collections "HTTP/1.1 201 "
+2024-03-27 22:46:52,258 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:46:52,258 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:46:52,258 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:46:52,620 - httpx - INFO - HTTP Request: POST https://api-preview.ryght.ai/document-import/v1/documents/collections/375a773b-13a8-4a70-a13a-e388b1873c9b "HTTP/1.1 202 "
+2024-03-27 22:46:55,072 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:46:55,072 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:46:55,072 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:46:55,342 - httpx - INFO - HTTP Request: POST https://api-preview.ryght.ai/v1/document-collections "HTTP/1.1 201 "
+2024-03-27 22:46:55,600 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:46:55,600 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:46:55,600 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:46:55,932 - httpx - INFO - HTTP Request: POST https://api-preview.ryght.ai/document-import/v1/documents/collections/8111c28e-7cb2-40a5-bf7c-97e78ab3efdb "HTTP/1.1 202 "
+2024-03-27 22:46:57,375 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:46:57,375 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:46:57,376 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:46:57,638 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/document-import/v1/documents/status/d01a3ba2c670a24a7191f7f960066b6e "HTTP/1.1 200 "
+2024-03-27 22:46:59,113 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:46:59,114 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:46:59,114 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:47:01,234 - httpx - INFO - HTTP Request: POST https://api-preview.ryght.ai/document-import/v1/documents/collections/8111c28e-7cb2-40a5-bf7c-97e78ab3efdb/files "HTTP/1.1 202 "
+2024-03-27 22:47:01,249 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:47:01,249 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:47:01,250 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:47:01,503 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/document-import/v1/documents/status/f8eb68f2449d60270005a36aff32c940 "HTTP/1.1 200 "
+2024-03-27 22:47:02,948 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:47:02,949 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:47:02,949 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:47:03,703 - httpx - INFO - HTTP Request: POST https://api-preview.ryght.ai/document-import/v1/documents/collections/8111c28e-7cb2-40a5-bf7c-97e78ab3efdb/files "HTTP/1.1 202 "
+2024-03-27 22:47:03,707 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:47:03,708 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:47:03,708 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:47:03,965 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/document-import/v1/documents/status/8f81ca1196b795bdc1682228b8f3f0fe "HTTP/1.1 200 "
+2024-03-27 22:47:05,779 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:47:05,779 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:47:05,780 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:47:06,495 - httpx - INFO - HTTP Request: POST https://api-preview.ryght.ai/document-import/v1/documents/collections/8111c28e-7cb2-40a5-bf7c-97e78ab3efdb/files "HTTP/1.1 202 "
+2024-03-27 22:47:06,695 - ryght.managers.tokens - INFO - Performing Authentication for execute_request fn call
+2024-03-27 22:47:06,695 - ryght.managers.tokens - INFO - Checking access token validity
+2024-03-27 22:47:06,695 - ryght.managers.tokens - INFO - Access token is valid, performing execute_request fn call
+2024-03-27 22:47:06,949 - httpx - INFO - HTTP Request: GET https://api-preview.ryght.ai/document-import/v1/documents/status/d434467b029479425cb0200f3390c272 "HTTP/1.1 200 "
