@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "platform-client-starter-python"
+version = "0.1.0"
+description = ""
+authors = ["sudo-ai <sudo@ryght.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11.7"
+ryght-platform-sdk = "^0.3.6"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+notebook = "^7.0.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
